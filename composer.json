@@ -1,0 +1,12 @@
+{
+    "require": {
+        "grpc/grpc": "^1.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\":"GPBMetadata/",
+            "Lotteryservice\\":"Lotteryservice/",
+            "channel\\": "channel/"
+        }
+    }
+}
